@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Metallica';
+    src: url('../rsc/fonts/metallica.ttf');
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../rsc/fonts/Minecraft.ttf');
+}
+
+.hidden{
+    display: hidden;
+}
+
+.debug-border{
+    border: thin solid white;;
+}
+
+.buffer-20{
+    height: 20px;
+}
+
+html{
+    overflow: hidden;
+    user-select: none;
+}
+
+h1{
+    color: white;
+}
+
+.top-banner, .top-banner-extended{
+    position: absolute;
+    height: 100px;
+    width: 100vw;
+    z-index: 2;
+}
+
+.top-banner{
+    /* background-color: black; */
+    background-image: url("../rsc/blocks/oak_log_top.png");
+    text-align: center;
+    image-rendering: pixelated;
+    background-size: 100px;
+    /* box-shadow: 0px 2px 10px yellow; */
+}
+
+.top-banner div{
+    height: 100%;
+}
+
+.top-banner-img{
+    width: 45px;
+    height: auto;
+    margin-top: 25px;
+    image-rendering: auto;
+}
+
+.top-banner-logo{
+    padding: 10px;
+    height: 100%;
+    width: auto;
+}
+
+.top-banner-title{
+    font-size: 40px;
+    color: white;
+    font-family: "Minecraft";
+}
+
+.top-banner-link{
+    color: white;
+}
+
+.top-banner-link:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.top-banner-extended{
+    background-color: rgb(48, 48, 48);
+    margin-top: 80px;
+}
+
+.top-banner-table{
+    width: 100%;
+}
+
+.top-banner-table tr td{
+    color: white;
+}
+
+.content-container{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 0;
+    width: 100vw;
+    background-color: black;
+    background-image: url("../rsc/blocks/deepslate_tiles.png");
+    image-rendering: pixelated;
+    background-size: 100px;
+}
+
+.main-content{
+    /* background-color: rgba(255, 255, 255, 0.603); */
+    margin-top: 100px;
+    text-align: center;
+    image-rendering: auto;
+}
